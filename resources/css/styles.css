@@ -12,17 +12,17 @@ header {
     color: white;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 header .logo-container {
     display: flex;
     flex-grow: 4;  /* Push nav to the right-hand side on larger devices */
     padding: 0.7em 1em 0.4em 1em;
     font-weight: 700;
     font-size: 2em;
-}
-
-.logo-container a {
-    color: white;
-    text-decoration: none;
 }
 
 .logo-container .icon {
