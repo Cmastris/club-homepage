@@ -97,6 +97,31 @@ header nav a:active {
 
 /* ===== Utilities ===== */
 
+.btn {
+    display: inline-block;
+    padding: 0.7em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn.light {
+    border: 2px solid white;
+}
+
+.btn.light:hover {
+    background-color: white;
+    border: 2px solid rgb(220, 255, 220);
+    color: rgb(0, 100, 0);
+}
+
+.btn.light:active {
+    background-color: rgb(220, 255, 220);
+}
+
+.light {
+    color: white;
+}
+
 .material-symbols-outlined {
     /* https://developers.google.com/fonts/docs/material_icons */
     font-variation-settings:
