@@ -121,10 +121,101 @@ header nav a:active {
 }
 
 
+/* ===== Components ===== */
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(235, 255, 190);
+    text-align: center;
+}
+
+.hero-image {
+    position: absolute;
+    height: 36em;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container .quote {
+    position: relative;
+    min-height: 12em;
+    width: 60%;
+    margin-top: 8em;
+    padding: 0 5vw;
+}
+
+.hero-box {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 4em 0;
+    padding: 2rem 5vw;
+    background-color: rgb(0, 100, 0);
+    color: white;
+}
+
+.hero-box h1 {
+    font-size: 3em;
+}
+
+.hero-box p {
+    margin-bottom: 1.5em;
+    font-size: 1.7em;
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-container .quote {
+        width: 80%;
+    }
+    
+    .hero-box {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container .quote {
+        min-height: 0;
+        width: 100%;
+        margin-top: 4em;
+    }
+
+    .hero-container .quote-text {
+        font-size: 1.4em;
+    }
+
+    .hero-box {
+        width: 100%;
+        min-height: 25em;
+        margin-bottom: 0;
+    }
+
+    .hero-box h1 {
+        font-size: 2em;
+    }
+
+    .hero-box p {
+        font-size: 1.2em;
+    }
+}
+
+
 /* ===== Elements ===== */
 
 h1 {
     margin-bottom: 0.8em;
     font-family: "Boogaloo", "Reem Kufi Fun", sans-serif;
     letter-spacing: 0.05em;
+}
+
+
+#homepage-hero .hero-image {
+    background-image: url(../images/hero-background.jpg);
 }
