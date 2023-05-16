@@ -124,6 +124,7 @@ header nav a:active {
 /* ===== Elements ===== */
 
 h1 {
+    margin-bottom: 0.8em;
     font-family: "Boogaloo", "Reem Kufi Fun", sans-serif;
     letter-spacing: 0.05em;
 }
