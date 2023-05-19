@@ -101,6 +101,10 @@ header nav a:active {
     background-color: rgb(245, 255, 200);
 }
 
+.bg-off-white {
+    background-color: rgb(250, 255, 245);
+}
+
 .btn {
     display: inline-block;
     padding: 0.7em;
@@ -335,6 +339,28 @@ header nav a:active {
     .hero-box p {
         font-size: 1.2em;
     }
+}
+
+.img-tiles h2 {
+    margin-bottom: 2.2em;
+}
+
+.img-tile {
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.img-tile img {
+    border: 10px solid transparent;
+    border-radius: 50%;  /* Circular images */
+}
+
+.img-tile-text {
+    padding: 1em;
+}
+
+.img-tile h3 {
+    margin-bottom: 0.5em;
 }
 
 
