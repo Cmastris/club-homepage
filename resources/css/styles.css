@@ -162,6 +162,26 @@ header nav a:active {
     column-gap: 5%;
 }
 
+.grid-1x4 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  /* 1x4 */
+    column-gap: 5%;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-1x4 {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  /* 2x2 */
+        column-gap: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-1x4 {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));  /* 2x2 or 4x1 */
+        column-gap: 8%;
+    }
+}
+
 .light {
     color: white;
 }
