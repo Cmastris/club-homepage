@@ -137,6 +137,25 @@ header nav a:active {
     background-color: rgb(245, 255, 200);
 }
 
+.content-container {
+    padding: 3.5em 10%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .content-container {
+        padding: 3em 4%;
+    }
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-1x3 {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    column-gap: 5%;
+}
+
 .light {
     color: white;
 }
