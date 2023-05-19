@@ -285,6 +285,23 @@ h1 {
     letter-spacing: 0.05em;
 }
 
+h2 {
+    margin-bottom: 0.8em;
+    font-size: 2.2em;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+h3 {
+    margin-bottom: 1.2em;
+}
+
+
+/* ===== Miscellaneous ===== */
 
 #homepage-hero .hero-image {
     background-image: url(../images/hero-background.jpg);
