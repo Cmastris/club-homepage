@@ -130,12 +130,11 @@ header nav a:active {
 
 .btn.light:hover {
     background-color: white;
-    border: 2px solid rgb(220, 255, 220);
     color: rgb(0, 100, 0);
 }
 
 .btn.light:active {
-    background-color: rgb(220, 255, 220);
+    background-color: rgb(245, 255, 200);
 }
 
 .light {
